@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        
+        <!-- margin은 좌우는 상관없지만 상하는 겹치는 순간 하나가 된다(큰쪽으로 적용) '100->60:40=60' -->
+        <style>
+        	* {margin: 0px 0px 0px 0px;
+        		}
+        	
+        	div {
+        		border: 1px solid #000000;
+        		}
+        	.bis {
+        		padding: 0px 0px 0px 50px;}
+        	.div-red {
+        			background-color: #ff0000;
+        			margin: 10px 20px 30px -40px;
+        			}
+        	.div-blue {
+        				background-color: #0000ff;
+        				margin: 0px 0px 0px 40px;
+        			   }
+        </style>
+    </head>
+
+    <body>
+		<div class="bis">
+	        <div class="div-red">
+	        	div 빨강
+	        </div>
+	        <div class="div-blue">
+	        	div 파랑
+	        </div>
+		</div>
+    </body>
+
+</html>
